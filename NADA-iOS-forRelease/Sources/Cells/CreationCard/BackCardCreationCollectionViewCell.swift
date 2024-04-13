@@ -59,7 +59,7 @@ class BackCardCreationCollectionViewCell: UICollectionViewCell {
 
 extension BackCardCreationCollectionViewCell {
     private func setUI() {
-        IQKeyboardManager.shared.shouldResignOnTouchOutside = true
+        IQKeyboardManager.shared.resignOnTouchOutside = true
         
         initCollectionViewList()
         

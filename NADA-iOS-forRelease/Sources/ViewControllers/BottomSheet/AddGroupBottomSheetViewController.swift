@@ -50,7 +50,7 @@ class AddGroupBottomSheetViewController: CommonBottomSheetViewController, UIText
         
         setupUI()
         addGroupTextField.delegate = self
-        IQKeyboardManager.shared.shouldResignOnTouchOutside = false
+        IQKeyboardManager.shared.resignOnTouchOutside = false
     }
     
     override func viewDidAppear(_ animated: Bool) {

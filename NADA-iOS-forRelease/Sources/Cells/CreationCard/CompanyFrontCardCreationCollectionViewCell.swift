@@ -71,7 +71,7 @@ class CompanyFrontCardCreationCollectionViewCell: UICollectionViewCell {
 
 extension CompanyFrontCardCreationCollectionViewCell {
     private func setUI() {
-        IQKeyboardManager.shared.shouldResignOnTouchOutside = true
+        IQKeyboardManager.shared.resignOnTouchOutside = true
         
         initUITextFieldList()
         backgroundSettingCollectionView.showsHorizontalScrollIndicator = false

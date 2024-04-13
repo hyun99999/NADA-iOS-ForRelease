@@ -47,7 +47,7 @@ class AddWithIdBottomSheetViewController: CommonBottomSheetViewController, UITex
 
         setupUI()
         addWithIdTextField.delegate = self
-        IQKeyboardManager.shared.shouldResignOnTouchOutside = false
+        IQKeyboardManager.shared.resignOnTouchOutside = false
     }
     
     override func viewDidAppear(_ animated: Bool) {
